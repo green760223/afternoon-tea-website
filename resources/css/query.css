@@ -1,0 +1,101 @@
+/* small table to big table:less than 977 px */
+/* @media only screen and (max-width: 977px) {
+  .testimonial {
+    margin-top: 12px;
+    text-align: right;
+    color: black;
+  }
+} */
+
+/* @media (min-width: 977px) {
+  .testimonial {
+    margin-top: 12px;
+    text-align: right;
+  }
+
+  .social-link {
+    font-size: 14px;
+    width: 125px;
+  }
+} */
+
+/* small phone to small tablet:from 0 px to 744 px
+@media only screen and (max-width: 744px) {
+} */
+
+/* small phone :from 0 px to 496 px */
+/* @media (max-width: 496px) {
+  .navbar-brand {
+    font-size: 10px;
+  }
+
+  .nav-link {
+    font-size: 10px;
+  }
+} */
+
+/* 分隔線 */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .clear-nav {
+    clear: both;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .social-link {
+    font-size: 14px;
+    width: 125px;
+  }
+
+  .menu-item span {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(42, 43, 47, 1);
+  }
+
+  .menu-item {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .margin-buttom {
+    margin: 40px 0px 20px 20px;
+  }
+
+  .testimonial {
+    margin-top: 12px;
+    text-align: right;
+    font-size: 16px;
+  }
+
+  .testimonial span {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .testimonial {
+    margin-top: 12px;
+    text-align: right;
+    font-size: 20px;
+  }
+
+  .testimonial span {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,477 @@
+div,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Noto Sans TC", sans-serif;
+  background: url("../img/light_noise_diagonal.jpg") center center;
+}
+
+h1 {
+  font-weight: 300;
+  margin-top: 80px;
+  font-size: 120%;
+  letter-spacing: 6px;
+}
+
+h2 {
+  font-size: 200%;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+h1::after {
+  display: block;
+  background-color: #e03d44;
+  content: "";
+  height: 2px;
+  width: 50px;
+  margin-top: 15px;
+}
+
+h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+h3:after {
+  height: 2px;
+  background-color: #e03d44;
+  content: "";
+  width: 40px;
+  margin-top: 18px;
+  display: block;
+}
+
+h4 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+h4:after {
+  display: block;
+  height: 2px;
+  background-color: #e03d44;
+  content: "";
+  width: 40px;
+  margin-top: 18px;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.text-box {
+  color: #fff;
+  position: absolute;
+  transform: translate(10%, 110%);
+}
+
+.btn:link {
+  margin-top: 20px;
+  font-weight: 100;
+  border-radius: 8px;
+  transition: background-color 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+  background-color: #e03d44;
+  color: #fff;
+}
+
+.btn-full:hover {
+  background-color: rgba(224, 61, 68, 0.86);
+}
+
+/* Header */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(/resources/img/jason-leung-poI7DelFiVA-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Main Nav */
+.navbg {
+  background-color: rgba(42, 43, 47, 1);
+}
+
+.navbar li,
+.navbar a {
+  color: #fff;
+}
+
+.navbar li a:hover {
+  color: #e03d44;
+  transition: 0.4s;
+}
+
+/* About us */
+.about-us {
+  height: 35vh;
+}
+
+.title-row {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.divider-center {
+  border: 1px solid #000;
+  width: 100%;
+  margin: 15px auto;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Menu Section */
+.menu {
+  height: 465px;
+}
+
+.box-image-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/breakfast.jpg");
+  height: 465px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box-image-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/lunch.jpg");
+  height: 465px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.box-image-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/drinks.jpg");
+  height: 465px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.image-boxes-title {
+  position: absolute;
+  bottom: 40px;
+  padding: 24px;
+}
+
+.image-boxes-title span {
+  font-size: 24px;
+  color: #fff;
+}
+
+.divider {
+  width: 40px;
+  height: 2px;
+  background-color: #e03d44;
+  margin-top: 6px;
+}
+
+.bg-black {
+  background-color: rgba(42, 43, 47, 1);
+  width: 100%;
+  height: 465px;
+}
+
+.wall-sticker {
+  padding: 80px 40px;
+}
+
+.bg-black p,
+h3 {
+  color: #fff;
+}
+
+.lead {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.cta-btns {
+  margin-top: 20px;
+}
+
+.button {
+  line-height: 1;
+  padding: 12px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(42, 43, 47, 1);
+  border-radius: 8px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: rgba(239, 36, 106);
+  transition: 0.4s;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.margin-buttom h3 {
+  color: #000;
+}
+
+/* Main Menu */
+.food-breakfast {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(/resources/img/morning.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 640px;
+}
+
+.list-custom {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.menu-item {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.menu-item span {
+  display: block;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(42, 43, 47, 1);
+}
+
+.small-text {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.margin-buttom {
+  margin: 80px 0px 70px 20px;
+}
+
+.bagel-row {
+  margin-top: 40px;
+}
+
+/* Section Meals */
+.meal-photo {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.meal-photo img {
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  transform: scale(1.15);
+  transition: opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+}
+
+/* Section Testimonial */
+.testimonial-img {
+  background: url(../img/restaurant.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-white-testimonial {
+  background-color: #fff;
+  height: 40vh;
+}
+
+.margin-img {
+  width: 70px;
+  border-radius: 70%;
+}
+
+.margin-img:hover {
+  transform: scale(0.95);
+  transition: 0.4s;
+}
+
+.testimonial {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.testimonial span {
+  display: block;
+  font-weight: 400;
+  color: rgba(42, 43, 47, 0.7);
+  font-size: 12px;
+}
+
+.testimonial-content p:before,
+.testimonial-content p:after {
+  content: '"';
+}
+
+.testimonial-content p {
+  padding-top: 20px;
+}
+
+.testimonial-bottom {
+  margin-bottom: 40px;
+}
+
+.box {
+  margin-top: 55px;
+}
+
+.testimonial-margin {
+  margin-top: 40px;
+}
+
+/* Section Contact */
+
+.messenger h3 {
+  color: #000;
+}
+
+.messenger {
+  margin: 50px;
+}
+
+.bg-color {
+  height: 480px;
+  background-color: #e44424;
+}
+
+.bg-color h3,
+.bg-color p {
+  color: #fff;
+}
+
+.bg-color h3:after {
+  background-color: #fff;
+}
+
+.bg-white {
+  height: 480px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.mail:hover {
+  color: rgba(224, 66, 19, 0.9);
+}
+
+/* footer */
+.footer-bg {
+  background-color: rgba(42, 43, 47, 0.9);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.social-link {
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.social-link li {
+  display: block;
+  margin-top: 10px;
+}
+
+.social-link li a {
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.icon-box {
+  font-style: normal;
+  display: inline-block;
+  text-align: center;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
+.twitter:hover {
+  color: #55acee;
+}
+
+.google:hover {
+  color: #dd4b39;
+}
+
+.instagram:hover {
+  color: #e1306c;
+}
+
+.facebook {
+  margin-right: 10px;
+}
+
+.twitter {
+  margin-right: 10px;
+}
+
+.google {
+  margin-right: 10px;
+}
+
+.instagram {
+  margin-right: 10px;
+}
+
+.copyright {
+  background-color: rgb(38, 39, 46);
+}
+
+.copyright a,
+.copyright p {
+  margin: 0 10px;
+  line-height: 50px;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav {
+  float: right;
+}
+
+/* .navbar-toggler-icon {
+  background-color: #fff;
+} */
